@@ -1,6 +1,6 @@
 # # Controllers
 #
-# Extends from `Marionette.Collection`. Is used as a wrapper in order to
+# Extends from `Marionette.Controller`. Is used as a wrapper in order to
 # be able to add custom code to all `Controllers` on the application
 # without modifying Marionette code directly.
 @App.module "Controllers", (Controllers, App, Backbone, Marionette, $, _) ->
